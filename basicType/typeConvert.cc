@@ -1,18 +1,20 @@
 #include <iostream>
+
 using namespace std;
+
 int main()
 {
         unsigned u = 10, u2 = 42;
 
-        std::cout << u2 - u << std::endl; //32
-        std::cout << u - u2 << std::endl; //4294967264
+        cout << u2 - u << endl; //32
+        cout << u - u2 << endl; //4294967264
 
         int i = 10, i2 = 42;
 
-        std::cout << i2 - i << std::endl; //32
-        std::cout << i - i2 << std::endl; //-32
-        std::cout << i - u << std::endl;  //0
-        std::cout << u - i << std::endl;  //0
+        cout << i2 - i << endl; //32
+        cout << i - i2 << endl; //-32
+        cout << i - u << endl;  //0
+        cout << u - i << endl;  //0
 
 	double d = 2.5;
 	i = 2;
