@@ -18,5 +18,9 @@ int main()
 	cout << "double " << sizeof(double) << endl;
 	cout << "long double " << sizeof(long double) << endl;
 
+	cout << "L'a' " << sizeof(L'a') << endl;		//4
+	cout << "a " << sizeof("a") << endl;			//2
+	cout << "L\"a\" " << sizeof(L"a") << endl;		//8
+
 	return 0;
 }

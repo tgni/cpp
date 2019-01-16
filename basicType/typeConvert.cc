@@ -20,5 +20,11 @@ int main()
 	i = 2;
 	cout << d / i << endl;
 
+	bool b = 42;
+	cout << b << endl;
+
+	char c2 = 256;
+	cout << c2 << endl;
+
         return 0;
 }
