@@ -1,6 +1,6 @@
 CCFLAGS = -W -Wall -I.. #-lm
 # executable files for this directory
-OBJECTS = vecTest.exe
+OBJECTS = vecInt.exe vecStr.exe vecTest.exe vecToupper.exe
 # tells make to use the file "../GNU_makefile_template", which
 # defines general rules for making .o and .exe files
 include ../GNU_makefile_template
