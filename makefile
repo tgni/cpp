@@ -1,6 +1,4 @@
-.PHONY:all apps kernel apps_clean kernel_clean clean distclean help
-
-dirs := basicType calculator string sudoku vector
+dirs := basicType calculator class const salesItem string sudoku vector
 all:
 	$(foreach N,$(dirs),make -C $(N) &&) :
 
